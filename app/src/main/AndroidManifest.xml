@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Yatri">
-        <activity android:name=".allCityPage"
-            android:label="Destination City "></activity>
+        <activity android:name=".SuggestionPage"></activity>
+        <activity
+            android:name=".allCityPage"
+            android:label="Destination City " />
         <activity
             android:name=".genralPage"
             android:label="Welcome to Yatri" />

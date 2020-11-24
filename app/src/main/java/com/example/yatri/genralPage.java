@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class genralPage extends AppCompatActivity {
 
@@ -26,12 +25,8 @@ public class genralPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(genralPage.this,allCityPage.class);
-                if(name != null && city != null){
 
-                startActivity(i);}
-                else{
-                    Toast.makeText(genralPage.this, "Please Fill Name or City Entry.", Toast.LENGTH_SHORT).show();
-                }
+                startActivity(i);
             }
         });
 
