@@ -29,6 +29,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/mumbai"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
@@ -59,12 +60,13 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:padding="30dp"
-                        app:srcCompat="?attr/actionModeCloseDrawable" />
+                        android:src="@drawable/arrow" />
 
                 </RelativeLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/indore"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
@@ -95,13 +97,14 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:padding="30dp"
-                        app:srcCompat="?attr/actionModeCloseDrawable" />
+                        android:src="@drawable/arrow" />
 
                 </RelativeLayout>
             </LinearLayout>
 
 
             <LinearLayout
+                android:id="@+id/kerala"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
@@ -132,12 +135,13 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:padding="30dp"
-                        app:srcCompat="?attr/actionModeCloseDrawable" />
+                        android:src="@drawable/arrow" />
 
                 </RelativeLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ujjain"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
@@ -168,7 +172,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:padding="30dp"
-                        app:srcCompat="?attr/actionModeCloseDrawable" />
+                        android:src="@drawable/arrow" />
 
                 </RelativeLayout>
             </LinearLayout>

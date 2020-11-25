@@ -4,12 +4,22 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/welcome"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Yatri">
-        <activity android:name=".SuggestionPage"></activity>
+        <activity android:name=".Ujjain"
+            android:label="Ujjain"
+          ></activity>
+        <activity android:name=".Kerala"
+            android:label="Kerala"/>
+        <activity android:name=".Indore"
+            android:label="Indore"/>
+        <activity android:name=".Mumbai"
+            android:label="Mumbai"/>
+        <activity android:name=".SuggestionPage"
+            android:label="Add Place"/>
         <activity
             android:name=".allCityPage"
             android:label="Destination City " />

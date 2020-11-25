@@ -1,9 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Yatri" parent="Theme.MaterialComponents.DayNight.DarkActionBar"/>
+    <style name="Theme.Yatri" parent="Theme.MaterialComponents.DayNight.DarkActionBar" />
+
     <style name="Theme.Yatrii" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
-    <!-- Primary brand color. -->
+        <!-- Primary brand color. -->
         <item name="colorPrimary">#F44336</item>
         <item name="colorPrimaryVariant">#F44336</item>
         <item name="colorOnPrimary">#F44336</item>
@@ -15,4 +16,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Yatri.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Yatri.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Yatri.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
