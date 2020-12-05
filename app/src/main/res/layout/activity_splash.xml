@@ -24,7 +24,7 @@
         android:text="Developer"
         android:textStyle="bold"
         android:layout_marginBottom="100dp"
-        android:textSize="30sp"/>
+        android:textSize="29sp"/>
 
     <TextView
         android:id="@+id/textView2"

@@ -16,10 +16,14 @@ public class Ujjain extends AppCompatActivity {
 
 
         final ArrayList<Object> words = new ArrayList<Object>();
-        words.add(new Object("one", "lutti", R.drawable.travel));
-        words.add(new Object("two", "otiiko", R.drawable.travel));
-        words.add(new Object("three", "tolookosu", R.drawable.travel));
-        words.add(new Object("four", "oyyisa", R.drawable.travel));
+        words.add(new Object("Mahakaleshwar", "2 km\n" +
+                "from city center", R.drawable.ujjain1));
+        words.add(new Object(" Kal Bhairav temple", "5 km\n" +
+                "from city center", R.drawable.ujjain2));
+        words.add(new Object("Ram Mandir Ghat", "2 km\n" +
+                "from city center", R.drawable.ujjain3));
+        words.add(new Object("Kumbh mela", "3 km\n" +
+                "from city center", R.drawable.ujjain4));
 
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);

@@ -16,10 +16,14 @@ public class Indore extends AppCompatActivity {
 
 
         final ArrayList<Object> words = new ArrayList<Object>();
-        words.add(new Object("one", "lutti", R.drawable.travel));
-        words.add(new Object("two", "otiiko", R.drawable.travel));
-        words.add(new Object("three", "tolookosu", R.drawable.travel));
-        words.add(new Object("four", "oyyisa", R.drawable.travel));
+        words.add(new Object("Lal Bagh Palace", "2 km\n" +
+                "from city center", R.drawable.indore1));
+        words.add(new Object("Rajwaada Palace", "0 km\n" +
+                "from city center", R.drawable.indore2));
+        words.add(new Object("Bada Ganpati", "2 km\n" +
+                "from city center", R.drawable.indore3));
+        words.add(new Object("Chhappan Dukaan", "3 km\n" +
+                "from city center", R.drawable.indore4));
 
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);

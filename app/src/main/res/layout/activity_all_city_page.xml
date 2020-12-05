@@ -180,11 +180,11 @@
 
         <TextView
             android:id="@+id/suggestion"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
             android:text="Register Your City"
             android:background="@android:color/black"
             android:textColor="@android:color/holo_red_dark"

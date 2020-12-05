@@ -16,10 +16,10 @@ public class Mumbai extends AppCompatActivity {
 
 
         final ArrayList<Object> words = new ArrayList<Object>();
-        words.add(new Object("one", "lutti", R.drawable.travel));
-        words.add(new Object("two", "otiiko", R.drawable.travel));
-        words.add(new Object("three", "tolookosu", R.drawable.travel));
-        words.add(new Object("four", "oyyisa", R.drawable.travel));
+        words.add(new Object("Marine Drive", "Located in : Fort Mumbai", R.drawable.mumbai));
+        words.add(new Object("Gateway of India", "Located in : Fort Mumbai", R.drawable.mumbai2));
+        words.add(new Object("Juhu beach", "Located in : Juhu", R.drawable.mumbai3));
+        words.add(new Object("Colaba Causeway", "Located in : Colaba", R.drawable.mumbai4));
 
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);
